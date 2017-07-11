@@ -1,4 +1,4 @@
-ROM alpine:latest
+FROM alpine:latest
 
 RUN apk update && apk add git curl make
 RUN git clone https://github.com/tommyulfsparre/aurora_exporter exporter
